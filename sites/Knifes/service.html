@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Сервис</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220410102838">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<a class="menu__map _icon-map"></a>
+						<a href="tel:89811201117" class="menu__number">8 981 120-11-17</a>
+						<a href="tel:89811201117" class="menu__number-icon _icon-phone"></a>
+						<nav class="menu__body">
+							<div class="menu__actions">
+								<span class="menu__close _icon-arrow-left"></span>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Кухонные ножи TUOTOWN</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Складные ножи TUOTOWN</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Кухонные ножи QXF</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Точильные камни</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Наборы для BBQ</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Кухонные принадлежности</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Туристические товары</a></li>
+							</ul>
+							<ul class="menu__info">
+								<li class="menu__info-item"><a class="menu__info-link" href="">Новости</a></li>
+								<li class="menu__info-item"><a class="menu__info-link" href="">О компании</a></li>
+								<li class="menu__info-item"><a class="menu__info-link" href="">Контакты</a></li>
+								<li class="menu__info-item"><a class="menu__info-link" href="">Как проехать</a></li>
+							</ul>
+
+
+						</nav>
+					</div>
+					<div class="header__logo">
+						<a href=""><img src="img/logo.svg" alt=""></a>
+					</div>
+					<div class="header__actions actions-header">
+						<a data-da=".header__menu,767.98" class="actions-header__item actions-header__shop _icon-shop"></a>
+						<a data-da=".menu__actions,767.98," class="actions-header__item actions-header__mail _icon-mail"></a>
+						<div data-da=".menu__actions,767.98" class="actions-header__item actions-header__search search">
+							<span class="search__icon _icon-search"></span>
+							<input placeholder="Поиск..." class="search__body" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="main-navbar">
+				<div class="main-navbar__container">
+					<h2 class="main-navbar__title">СЕРВИС</h2>
+					<div class="main-navbar__body">
+						<ul class="main-navbar__list">
+							<li class="main-navbar__item"><a href="" class="main-navbar__link">Сервисные центры</a></li>
+							<li class="main-navbar__item _current"><a href="" class="main-navbar__link ">Служба заботы</a></li>
+							<li class="main-navbar__item"><a href="" class="main-navbar__link">Запчасти</a></li>
+							<li class="main-navbar__item"><a href="" class="main-navbar__link">Инструкции</a></li>
+							<li class="main-navbar__item"><a href="" class="main-navbar__link">Сертификаты</a></li>
+						</ul>
+					</div>
+
+					<a href="tel:+79811201117" class="main-navbar__phone">+7 (981) 120-11-17</a>
+				</div>
+			</section>
+			<section class="form-service">
+				<div class="form-service__container">
+					<form action="#" class="form">
+						<div class="form__body">
+							<div class="form__row">
+								<div class="form__item">
+									<span class="form__text">Тема</span>
+									<select data-required class="form__select" name="form[]">
+										<option data-label value="1" selected>Неполадки с ножом</option>
+										<option value="2">Пункт №2</option>
+										<option value="3">Пункт №3</option>
+										<option value="4">Пункт №4</option>
+									</select>
+									<span class="form__arrow _icon-arrow-up"></span>
+								</div>
+
+							</div>
+							<div class="form__row">
+								<div class="form__item">
+									<span class="form__text">Email</span>
+									<input autocomplete="off" type="text" name="form[]" required data-validate data-required="email" data-error placeholder=" Ваша почта" class="form__input" />
+									<span class="form__line"></span>
+								</div>
+
+							</div>
+							<div class="form__row">
+								<div class="form__item">
+									<span class="form__text">Имя</span>
+									<input autocomplete="off" type="text" name="form[]" required data-required data-error placeholder="Алексей" class="form__input" />
+									<span class="form__line"></span>
+								</div>
+							</div>
+							<div class="form__row">
+								<div class="form__item">
+									<span class="form__text">Телефон</span>
+									<input autocomplete="off" type="text" name="form[]" required data-required data-error data-mask="phone,ru" placeholder="" class="form__input" />
+									<span class="form__line"></span>
+								</div>
+							</div>
+							<div class="form__row_big">
+								<span class="form__text form__text_pad">Комментарий</span>
+								<textarea autocomplete="off" name="form[]" placeholder="Впишите ваше сообщение...." data-error class="input"></textarea>
+							</div>
+						</div>
+						<button type="submit" class="form__button _button">Отправить</button>
+					</form>
+				</div>
+
+			</section>
+			<section class="service-form">
+				<div class="service-form__container">
+					<form action="#" class="home-form__body form-mail">
+						<h4 class="form-mail__title">Узнавайте первым о новинках и новостях</h4>
+						<div class="form-mail__mail  _icon-arrow-left">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Ваш e-mail" class="form-mail__input" />
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__column">
+						<a href="" class="footer__logo">
+							<img src="img/logo.svg" alt="">
+							<div class="footer__name">легендарные ножи, создающие шедевры</div>
+						</a>
+
+						<p class="footer__text">Компания «Tuotown» – эксклюзивный представитель профессиональных кухонных ножей,
+							изготовленных лучшими мастерами Восточной Азии с применением передового европейского оборудования
+							и современных материалов. </p>
+						<p class="footer__text">
+							Они отличаются идеальным балансом и фантастической остротой. Сочетают в себе вековые традиции
+							и новейшие разработки. Также предлагаем широкий ассортимент сопутствующих товаров.
+						</p>
+					</div>
+					<div class="footer__column">
+						<div data-spollers="765.98,max" class="footer__spoller spoller-footer">
+							<div class="spoller-footer__item">
+								<button type="button" data-spoller class="spoller-footer__title footer__title _icon-arrow-up">Информация</button>
+								<div class="spoller-footer__body">
+									<ul class="footer__list">
+										<li class="footer__li"><a href="" class="footer__link">Главная</a></li>
+										<li class="footer__li"><a href="" class="footer__link">Новости</a></li>
+										<li class="footer__li"><a href="" class="footer__link">О компании </a></li>
+										<li class="footer__li"><a href="" class="footer__link">Контакты</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div data-spollers="765.98,max" class="footer__spoller spoller-footer">
+							<div class="spoller-footer__item">
+								<button type="button" data-spoller class="spoller-footer__title footer__title _icon-arrow-up">Каталог</button>
+								<div class="spoller-footer__body">
+									<ul class="footer__list">
+										<li class="footer__li"><a href="" class="footer__link">Кухонные ножи </a></li>
+										<li class="footer__li"><a href="" class="footer__link"> Складные ножи </a></li>
+										<li class="footer__li"><a href="" class="footer__link">Точилки для ножей </a></li>
+										<li class="footer__li"><a href="" class="footer__link">Аксессуары</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div data-spollers="765.98,max" class="footer__spoller spoller-footer spoller-footer_social">
+							<div class="spoller-footer__item social-footer">
+								<button type="button" data-spoller class="spoller-footer__title footer__title _icon-arrow-up">Мы в соцсетях</button>
+								<div class="spoller-footer__body">
+									<div class="social-footer__items">
+										<a href="" class="social-footer__item _icon-facebook"></a>
+										<a href="" class="social-footer__item _icon-vk"></a>
+										<a href="" class="social-footer__item _icon-instagram"></a>
+										<a href="" class="social-footer__item _icon-youtube"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div data-spollers="765.98,max" class="footer__spoller spoller-footer">
+							<div class="spoller-footer__item">
+								<button type="button" data-spoller class="spoller-footer__title footer__title _icon-arrow-up footer__title_3">
+									Контактная информация
+								</button>
+								<div class="spoller-footer__body">
+									<a href="tel:+79811201117" class="footer__phone">+7 (981) 120-11-17</a>
+									<a href="mail:tuotown@mail.ru" class="footer__mail">tuotown@mail.ru</a>
+									<div class="footer__time">08:00 — 18:00, ежедневно</div>
+									<div class="footer__address">
+										Россия, Москва, МКАД, 19-й километр, вл20с1, вход Ф, 22-68-70
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<picture><source srcset="img/license.webp" type="image/webp"><img class="footer__license" src="img/license.png" alt=""></picture>
+					</div>
+				</div>
+
+			</div>
+			<div class="footer__copy copy">
+				<div class="footer__container">
+					<div class="copy__body">
+						<div class="copy__text">
+							TUOTOWN © 2021 Торговая марка TUOTOWN зарегистрирована. Все права защищены и
+							принадлежат правообладателям.
+						</div>
+						<picture><source srcset="img/logo-footer.webp" type="image/webp"><img src="img/logo-footer.png" alt=""></picture>
+					</div>
+
+				</div>
+			</div>
+
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220410102838"></script>
+</body>
+
+</html>
